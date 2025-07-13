@@ -1,6 +1,7 @@
 #!/bin/bash
 
-WEBSITES=("https://google.com" "https://facebook.com" "https://twitter.com" "https://github.com" "https://copilot.microsoft.com" "https://www.codewars.com" "https://academy.hackthebox.com/" "https://parrotsec.org/" "https://hackthebox.store/" "https://portswigger.net/") 
+WEBSITES=()
+mapfile -t WEBSITES < "./websites.txt"
 
 LOG_FILE="./websitestatus.log"
 if [ ! -d "$(dirname "$LOG_FILE")" ]; then
