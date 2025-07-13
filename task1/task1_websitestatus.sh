@@ -3,7 +3,7 @@
 WEBSITES=()
 mapfile -t WEBSITES < "./websites.txt"
 
-LOG_FILE="./websitestatus.log"
+LOG_FILE="./website_status.log"
 if [ ! -d "$(dirname "$LOG_FILE")" ]; then
     mkdir -p "$(dirname "$LOG_FILE")"
 fi
