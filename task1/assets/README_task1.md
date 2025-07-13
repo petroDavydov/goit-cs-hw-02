@@ -2,11 +2,11 @@
 
 
 #### Before 
-![before_working](./assets/before_work.png)
+![before_working](./before_work.png)
 
 #### After command
 
-![after_command](./assets/after_command.png)
+![after_command](./after_command.png)
 
 
 ##### P.S. The log file records data according to the task.
